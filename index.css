@@ -10,7 +10,6 @@ body{
 }
 header{
     width: 100%;
-    border: 1px solid;
     height: 70px;
 }
 
@@ -18,14 +17,12 @@ nav{
     width: 97%;
     margin: auto;
     height: 70px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .nav-holder{
-    border: 1px solid blue;
     width: 40%;
     display: flex;
     justify-content: space-between;
@@ -34,7 +31,6 @@ nav{
 .nav-list{
     display: flex;
     gap: 40px;
-    border: 1px solid pink;
     align-items: center;
 }
 
@@ -44,11 +40,28 @@ nav{
     font-size: 18px;
 }
 
+.spec a{
+    color: #ed1b24;
+}
+
+.list a:hover{
+    color: #ed1b24;
+}
+
 .nav-btn button{
-    padding: 10px;
+    padding: 10px 20px;
     font-weight: 600;
     font-size: 1rem;
     color: #e22028;
+    border: 1px solid rgb(218, 209, 209);
+    border-radius: 20px;
+    background-color: azure;
+
+}
+.nav-btn button:hover{
+    color: black;
+    border: 2px solid #e22028;
+
 }
 
 .hero{
@@ -84,6 +97,10 @@ nav{
 }
 .hero-btn{
     font-size: 24px;
+}
+
+.btn:hover{
+    background-color: #e8888b;
 }
 
 .details-frame{
@@ -134,6 +151,18 @@ nav{
 .info>h2{
     font-size: 39px;
     font-weight: 400;
+}
+
+.info-holder{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 2fr);
+    gap: 15px;
+}
+
+.crd{
+    height: 300px;
+    border: 1px solid red;
 }
 
 
