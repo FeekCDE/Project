@@ -105,8 +105,8 @@ nav{
 
 .details-frame{
     width: 80%;
-    margin: auto;
-    min-height: 200dvh;
+    margin: 0 auto;
+    height: fit-content;
 }
 
 .details-card{
@@ -132,7 +132,7 @@ nav{
 
 .details{
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     height: fit-content
 }
 
@@ -141,14 +141,13 @@ nav{
 }
 
 .info{
-    border: 1px solid;
     width: 50%;
     margin: auto;
     min-height: 50dvh;
     text-align: center;
 }
 
-.info>h2{
+.info h2{
     font-size: 39px;
     font-weight: 400;
 }
@@ -165,5 +164,13 @@ nav{
     border: 1px solid red;
 }
 
+.additional-info{
+    margin: 30px;
+}
+
+footer{
+    height: 40dvh;
+    border: 2px dashed black;
+}
 
 
