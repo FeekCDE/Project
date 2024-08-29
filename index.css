@@ -183,8 +183,10 @@ nav{
 }
 
 footer{
-    height: 40dvh;
+    height: fit-content;
     border: 2px dashed black;
+    text-align: center;
+
 }
 
 
