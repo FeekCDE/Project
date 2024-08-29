@@ -145,8 +145,8 @@ nav{
 
 .info{
     width: 50%;
-    margin: auto;
-    min-height: 50dvh;
+    margin: 20px auto;
+    height: fit-content;
     text-align: center;
 }
 
@@ -158,13 +158,24 @@ nav{
 .info-holder{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 2fr);
+    grid-template-rows: repeat(3, 2fr);
     gap: 15px;
+    margin-top: 30px;
+    height: fit-content;
 }
 
 .crd{
-    height: 300px;
-    border: 1px solid red;
+    min-height: 300px;
+    padding: 10px;
+    h3{
+        font-size: 22px;
+        margin: 10px;
+    }
+    p{
+        font-size: 17px;
+        line-height: 1.4rem;
+        margin: 2px 20px;
+    }
 }
 
 .additional-info{
