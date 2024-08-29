@@ -103,10 +103,12 @@ nav{
     background-color: #e8888b;
 }
 
+
 .details-frame{
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
     height: fit-content;
+    margin-top: 40px;
 }
 
 .details-card{
@@ -114,6 +116,7 @@ nav{
     display: flex;
     gap: 30px;
     justify-content: space-between;
+    margin: 30px 0px;
 }
 .details-text{
     width: 40%;
